@@ -1,0 +1,15 @@
+name: Mjolnir
+version: 1.0.0
+main: cool.lasthope.mjolnir.MjolnirPlugin
+api-version: 1.21
+description: Legendary weapon - Mjolnir
+authors: [LastHope]
+commands:
+  givemjolnir:
+    description: Give Mjolnir to a player
+    usage: /givemjolnir [player]
+    permission: mjolnir.give
+permissions:
+  mjolnir.give:
+    description: Allows giving Mjolnir
+    default: op
